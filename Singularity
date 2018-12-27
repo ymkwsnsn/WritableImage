@@ -38,4 +38,4 @@ Include: yum
     make install
 
 %runscript
-    /usr/local/libexec/osu-micro-benchmarks/mpi/pt2pt/osu_bw
+    /usr/local/libexec/osu-micro-benchmarks/mpi/pt2pt/osu_bw 
