@@ -18,7 +18,7 @@ Include: yum
     yum -y groupinstall "Development Tools"
     echo "Installing OpenMPI into container..."
     yum -y install wget
-    OPENMPI_VERSION=2.1.5
+    OPENMPI_VERSION=2.1.2
     OPENMPI_NAME=openmpi-${OPENMPI_VERSION}
     wget https://download.open-mpi.org/release/open-mpi/v2.1/${OPENMPI_NAME}.tar.gz
     tar -xvf ${OPENMPI_NAME}.tar.gz
